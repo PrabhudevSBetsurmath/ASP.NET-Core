@@ -1,0 +1,75 @@
+## Ignore build results
+bin/
+obj/
+
+## Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+# Uncomment if you have NuGet Package Restore enabled
+# !packages/build/
+
+## ASP.NET Core specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Configuration files
+appsettings.Development.json
+appsettings.*.json  # Exclude environment-specific config if needed
+
+## Log files
+*.log
+logs/
+App_Data/Logs/
+
+## Rider IDE specific
+.idea/
+*.sln.iml
+
+## Visual Studio Code specific
+.vscode/
+
+## Docker files
+docker-compose.override.yml
+**/docker-compose.override.yml
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Publish directory
+publish/
+ISMSPublish/
+
+## Compiled minified files and build outputs
+wwwroot/**/*.min.js
+wwwroot/**/*.min.css
+wwwroot/**/*.bundle.js
+wwwroot/**/*.bundle.css
+
+## Backup & temporary files
+*.bak
+*.orig
+*.tmp
+*.dbmdl
+*.jfm
+
+## Node.js related (if you’re using frontend dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+## Client-specific styles and JS
+**/Client/styles/*.min.css
+**/Client/app/**/*.min.js
